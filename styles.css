@@ -106,7 +106,7 @@ p {
     background-color: lightblue;
     color: black;
     position: absolute;
-    bottom: 100px;
+    bottom: 50px;
     right: 20px;
     width: 100px;
     height: 100px;
@@ -121,6 +121,7 @@ p {
     background-color: lightgray;
     padding: 2%;
     border-radius: 25px;
+    height: 300px;
 }
 
 #laptop-price{

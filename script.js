@@ -84,8 +84,7 @@ function repayLoan() {
     if (outstandingLoan > 0) {
         outstandingLoan -= currentMoney;
         currentMoney = 0;
-    }
-    else {
+    } else {
         return alert("you dont have a loan");
     }
     console.log(currentMoney, outstandingLoan);
@@ -124,7 +123,6 @@ const addLaptopsToMenu = (laptops) => {
 }
 
 const addLaptopToMenu = (laptops) => {
-    // creating each option for the select menu
     const laptopID = document.createElement("option");
     laptopID.value = laptops.id;
     laptopID.appendChild(document.createTextNode(laptops.title));
@@ -157,7 +155,6 @@ const buyLaptop = () => {
 }
 
 btnBuy.addEventListener("click", buyLaptop);
-
 
 let refreshPage = function() {
     toggleElements()
